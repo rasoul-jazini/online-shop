@@ -44,11 +44,11 @@ export default function Home({ products, error }) {
   return (
     <Layout>
       <main className="container bg-gray-50 min-h-screen px-6 my-10">
-        <div className="grid grid-cols-12 gap-x-2 text-gray-800">
-          <aside className="col-span-3">
-            <div className="border border-gray-300 rounded-lg px-4 py-6">
+        <div className="grid grid-cols-12 gap-x-8 text-gray-800">
+          <aside className="col-span-12 lg:col-span-3">
+            <div className="border-2 border-gray-200 rounded-lg px-4 py-6">
               <h3 className="mb-4 text-lg font-medium ">فیلترها</h3>
-              <ul className="flex flex-col divide-y">
+              <ul className="flex flex-col divide-y divide-gray-200">
                 <li className="flex justify-between items-center py-3">
                   <div className="text-sm font-medium">برند</div>
                   <div>
@@ -72,8 +72,8 @@ export default function Home({ products, error }) {
             </div>
           </aside>
 
-          <section className="col-span-9">
-            <div className="flex gap-x-2 items-center border-b pb-3 border-gray-200">
+          <section className="col-span-12 lg:col-span-9 mt-8 lg:mt-0">
+            <div className="flex gap-x-2 items-center">
               <div className="flex gap-x-2 items-center text-xs text-gray-700 font-medium">
                 <HiOutlineAdjustments size="18" />
                 <span>مرتب سازی:</span>
@@ -83,8 +83,8 @@ export default function Home({ products, error }) {
                 <span>ارزان ترین</span>
               </div>
             </div>
-            <div className="grid grid-cols-12 gap-1 mt-8">
-              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-200 rounded-sm">
+            <div className="grid grid-cols-12 mt-4">
+              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-100 transition-shadow duration-150 hover:shadow-md">
                 <div className="aspect-auto">
                   <img
                     src="./assets/images/mobile-01.jpg"
@@ -102,7 +102,7 @@ export default function Home({ products, error }) {
                   <span>6,500,000 تومان</span>
                 </div>
               </div>
-              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-200 rounded-sm">
+              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-100 transition-shadow duration-150 hover:shadow-md">
                 <div className="aspect-auto">
                   <img
                     src="./assets/images/mobile-01.jpg"
@@ -120,7 +120,7 @@ export default function Home({ products, error }) {
                   <span>6,500,000 تومان</span>
                 </div>
               </div>
-              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-200 rounded-sm">
+              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-100 transition-shadow duration-150 hover:shadow-md">
                 <div className="aspect-auto">
                   <img
                     src="./assets/images/mobile-01.jpg"
@@ -138,7 +138,7 @@ export default function Home({ products, error }) {
                   <span>6,500,000 تومان</span>
                 </div>
               </div>
-              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-200 rounded-sm">
+              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-100 transition-shadow duration-150 hover:shadow-md">
                 <div className="aspect-auto">
                   <img
                     src="./assets/images/mobile-01.jpg"
@@ -156,7 +156,7 @@ export default function Home({ products, error }) {
                   <span>6,500,000 تومان</span>
                 </div>
               </div>
-              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-200 rounded-sm">
+              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-100 transition-shadow duration-150 hover:shadow-md">
                 <div className="aspect-auto">
                   <img
                     src="./assets/images/mobile-01.jpg"
@@ -174,7 +174,7 @@ export default function Home({ products, error }) {
                   <span>6,500,000 تومان</span>
                 </div>
               </div>
-              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-200 rounded-sm">
+              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-100 transition-shadow duration-150 hover:shadow-md">
                 <div className="aspect-auto">
                   <img
                     src="./assets/images/mobile-01.jpg"
@@ -192,7 +192,7 @@ export default function Home({ products, error }) {
                   <span>6,500,000 تومان</span>
                 </div>
               </div>
-              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-200 rounded-sm">
+              <div className="col-span-12 sm:col-span-6 lg:col-span-4 px-2 py-4 border border-gray-100 transition-shadow duration-150 hover:shadow-md">
                 <div className="aspect-auto">
                   <img
                     src="./assets/images/mobile-01.jpg"

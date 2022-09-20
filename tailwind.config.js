@@ -9,7 +9,11 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["YekanBakh"],
+      },
+    },
   },
   plugins: [
     require("@tailwindcss/aspect-ratio"),
